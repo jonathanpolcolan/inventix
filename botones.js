@@ -16,10 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Selecciona el botón "PRODUCTOS" por su ID
-    var productosButton = document.getElementById('btnProductos');
+    var productosButton = document.getElementById('productosButton');
 
     // Agrega un manejador de eventos para el clic
     productosButton.addEventListener('click', function() {
         window.location.href = 'mesero.html'; // Redirige al usuario a 'mesero.html' al hacer clic
     });
 });
+//console.log(document.getElementById('productosButton'));
