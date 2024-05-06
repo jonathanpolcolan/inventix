@@ -1,19 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Selecciona el botón por su ID
-    var button = document.getElementById('adminButton');
+    var adminButton = document.getElementById('adminButton');
 
     // Agrega un manejador de eventos para el clic
-    button.addEventListener('click', function() {
-        // Cambia la ubicación para redirigir al usuario
-        window.location.href = 'login.html'; // Modifica esta URL por la página a la que desees redirigir
+    adminButton.addEventListener('click', function() {
+        window.location.href = 'login.html'; // Redirige al usuario al hacer clic
     });
 
-     // Selecciona el botón por su ID
-     var button = document.getElementById('meseroButton');
+    // Selecciona el botón por su ID
+    var meseroButton = document.getElementById('meseroButton');
 
-     // Agrega un manejador de eventos para el clic
-     button.addEventListener('click', function() {
-         // Cambia la ubicación para redirigir al usuario
-         window.location.href = 'login.html'; // Modifica esta URL por la página a la que desees redirigir
-        });
+    // Agrega un manejador de eventos para el clic
+    meseroButton.addEventListener('click', function() {
+        window.location.href = 'login.html'; // Redirige al usuario al hacer clic
+    });
+
+    // Selecciona el botón "PRODUCTOS" por su ID
+    var productosButton = document.getElementById('btnProductos');
+
+    // Agrega un manejador de eventos para el clic
+    productosButton.addEventListener('click', function() {
+        window.location.href = 'mesero.html'; // Redirige al usuario a 'mesero.html' al hacer clic
+    });
 });
