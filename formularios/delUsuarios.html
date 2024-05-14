@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Título de la página -->
-    <title>formulario usuarios</title>
+    <title>ELIMINAR USUARIOS</title>
 
     <!-- Enlace al archivo CSS de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,7 +25,7 @@
             /* Elimina los márgenes predeterminados */
             background-image: url('addUser.png');
             background-size: cover;
-            background-repeat: no-repeat;
+          
             background-position: center;
         }
     </style>
@@ -45,7 +45,7 @@
             /* Añade un borde alrededor del formulario */
             border-radius: 15px;
             /* Añade bordes redondeados al contenedor del formulario */
-            margin-left: 50px;
+        
         }
     </style>
 </head>
@@ -55,44 +55,33 @@
     <div class="form-container">
         <!-- Campo de entrada con icono -->
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">@</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+            <span class="input-group-text" id="basic-addon1">SELECCIONA EL ID A ELIMINAR</span>
+            <input type="number" class="form-control" placeholder="666" aria-label="666"
                 aria-describedby="basic-addon1">
         </div>
 
         <!-- Campo de entrada con texto adicional al final -->
         <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+            <input type="text" class="form-control" placeholder="JUAN GOMEZ" aria-label="JUAN GOMEZ"
                 aria-describedby="basic-addon2">
-            <span class="input-group-text" id="basic-addon2">@example.com</span>
+            <span class="input-group-text" id="basic-addon2">USUARIO A ELIMINAR</span>
         </div>
 
         <!-- Campo de entrada con texto adicional al inicio -->
-        <label for="basic-url" class="form-label">Your vanity URL</label>
+
         <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+            <span class="input-group-text" id="basic-addon3">OTRA CASIILA POR SI ACASO</span>
             <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
         </div>
 
         <!-- Campo de entrada con texto adicional antes y después del campo -->
-        <div class="input-group mb-3">
-            <span class="input-group-text">$</span>
-            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-            <span class="input-group-text">.00</span>
+
+        <div>
+            <button type="submit" class="btn btn-primary">ELIMINAR</button>
         </div>
 
-        <!-- Dos campos de entrada en una línea -->
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-            <span class="input-group-text">@</span>
-            <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-        </div>
 
-        <!-- Campo de entrada con un área de texto -->
-        <div class="input-group">
-            <span class="input-group-text">With textarea</span>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
-        </div>
+
     </div>
 
     <!-- Enlaces a Bootstrap y script de Bootstrap -->
